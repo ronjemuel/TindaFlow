@@ -1,0 +1,4 @@
+# Copy to supabase.local.properties (ignored by Git). Leave blank until configured.
+# Only a project HTTPS URL and sb_publishable_ key belong here. Never server keys.
+SUPABASE_URL=
+SUPABASE_PUBLISHABLE_KEY=

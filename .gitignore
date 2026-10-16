@@ -1,0 +1,44 @@
+# Gradle, Kotlin, and generated Android output
+.gradle/
+.kotlin/
+**/build/
+.cxx/
+.externalNativeBuild/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+
+# Local SDK, service configuration, and signing material
+local.properties
+supabase.local.properties
+release.properties
+key.properties
+keystore.properties
+google-services.json
+**/google-services.json
+*.keystore
+*.jks
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Editor, device captures, and temporary state
+.idea/
+.cg/
+*.iml
+captures/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Design handoff packages are not application screenshots
+TindaFlow_UI_*/
+TindaFlow_Codex_*.md
